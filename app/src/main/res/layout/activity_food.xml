@@ -39,8 +39,9 @@
             android:layout_gravity="center_horizontal"
             android:background="@drawable/layout_border"/>
 
-        <ImageView
+        <ImageButton
             android:layout_width="match_parent"
+            android:id="@+id/menu"
             android:layout_height="wrap_content"
             android:background="@drawable/wangji"
             android:scaleType="fitCenter"/>
@@ -48,38 +49,36 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom"
         android:gravity="center"
-        android:layout_gravity="bottom">
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="102dp"
+            android:layout_height="71dp"
+            android:background="@drawable/drinkicon"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="30dp" />
+
 
         <Button
             android:id="@+id/Left"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/arrow"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button1"
+            android:scaleX="-1"
             tools:layout_editor_absoluteX="27dp"
-            tools:layout_editor_absoluteY="493dp"
-            android:scaleX="-1" />
-
-        <Button
-            android:id="@+id/Random"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/dices"
-            android:textSize="30sp"
-            tools:layout_editor_absoluteX="135dp"
-            tools:layout_editor_absoluteY="477dp" />
-
-        <Button
-            android:id="@+id/Right"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/arrow"
-            tools:layout_editor_absoluteX="287dp"
             tools:layout_editor_absoluteY="493dp" />
 
+        <ImageView
+            android:layout_width="102dp"
+            android:layout_height="71dp"
+            android:background="@drawable/foodicon"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="30dp" />
     </LinearLayout>
 
 </LinearLayout>

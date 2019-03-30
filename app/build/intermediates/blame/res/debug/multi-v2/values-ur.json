@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\xipeng\\Desktop\\Alarm\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
+            "outputFile": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
             "map": [
                 {
                     "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c3cb92fce3945de32768e04b48dbbf4f\\res\\values-ur\\values-ur.xml",

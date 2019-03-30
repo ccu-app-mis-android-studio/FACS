@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\xipeng\\Desktop\\Alarm\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\b519da88f0cb409132e3fc29e290f4c2\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",

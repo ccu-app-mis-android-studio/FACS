@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\xipeng\\Desktop\\Alarm\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-af\\values-af.xml",
+            "outputFile": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-af\\values-af.xml",
             "map": [
                 {
                     "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\03392bbfbb213d1c2f7486ad6c166c82\\res\\values-af\\values.xml",

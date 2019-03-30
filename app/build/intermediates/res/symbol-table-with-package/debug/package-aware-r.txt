@@ -1048,6 +1048,7 @@ drawable back
 drawable background_color_circle_selector
 drawable background_transparent
 drawable bgapp
+drawable button1
 drawable chat
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -1076,7 +1077,9 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable dices
+drawable drinkicon
 drawable food
+drawable foodicon
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow_left
@@ -1086,6 +1089,7 @@ drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable kfc
 drawable layout_border
 drawable logo
 drawable mtrl_snackbar_background
@@ -1116,8 +1120,6 @@ id CTRL
 id FUNCTION
 id Left
 id META
-id Random
-id Right
 id SHIFT
 id SYM
 id abbreviationsBar
@@ -1238,6 +1240,7 @@ id list_item
 id many_days_picker
 id masked
 id media_actions
+id menu
 id message
 id middle
 id mini
@@ -1410,6 +1413,7 @@ layout abc_tooltip
 layout activity_alarm
 layout activity_chat
 layout activity_food
+layout activity_foodmenu
 layout activity_home
 layout activity_main
 layout activity_schedule2

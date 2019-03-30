@@ -1,18 +1,18 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\cf2662074f2af9081d9071053571b2dd\AndroidManifest.xml:2:1-9:12
 MERGED from [com.applandeo:material-calendar-view:1.5.1] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\material-calendar-view-1.5.1.aar\b0c568f18f7068f17d27f78c4f2ffb48\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\b519da88f0cb409132e3fc29e290f4c2\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\9c76ce2888516debc0b05a51b4f7ca1c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\775c456e014f7b55d48b29badca94984\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\36f5b905e69c8ce8a99d0a1e7d6b9a6c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\69a4f5de1bddcbad988e976f95ad0f54\AndroidManifest.xml:17:1-34:12
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\63618a401dde0cc0a0b73aad431567cc\AndroidManifest.xml:17:1-55:12
 MERGED from [com.android.support:transition:28.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\10a32e0100a16263c2ed1aa9b93c24d2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\36f5b905e69c8ce8a99d0a1e7d6b9a6c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\ff726d8b62a48e8766381676b7f2deb6\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\9a44dbb8b0d3cd4843c5473d6a0afb25\AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\19480300857ac8fdd6b19fefa367f5b1\AndroidManifest.xml:17:1-65:12
@@ -52,25 +52,25 @@ MERGED from [com.android.support:print:28.0.0] C:\Users\xipeng\.gradle\caches\tr
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\d0d57dca2fdc806e77baa0c871ca5b7d\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\ccd4bbeb721fc5a2edf53f65c7d0b811\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\1a28a0a1ca7ea2663291c8e704c443ec\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:3:5-38
-		INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:2:1-29:12
-		INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:2:1-29:12
-		INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:5:5-27:19
+ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:5:5-28:19
 MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\cf2662074f2af9081d9071053571b2dd\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\cf2662074f2af9081d9071053571b2dd\AndroidManifest.xml:7:5-20
 MERGED from [com.applandeo:material-calendar-view:1.5.1] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\material-calendar-view-1.5.1.aar\b0c568f18f7068f17d27f78c4f2ffb48\AndroidManifest.xml:11:5-15:19
@@ -116,59 +116,63 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Us
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\c3cb92fce3945de32768e04b48dbbf4f\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.example.jessl.alarm.MainActivity
-ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:12:9-21:20
+ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:12:9-21:20
 	android:label
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:14:13-45
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:14:13-45
 	android:theme
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:15:13-56
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:15:13-56
 	android:name
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:13:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:19:27-74
 activity#com.example.jessl.alarm.HomeActivity
-ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:22:9-50
+ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:22:9-50
 	android:name
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:22:19-47
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:22:19-47
 activity#com.example.jessl.alarm.Alarm
-ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:23:9-43
+ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:23:9-43
 	android:name
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:23:19-40
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:23:19-40
 activity#com.example.jessl.alarm.Schedule
-ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:24:9-46
+ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:24:9-46
 	android:name
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:24:19-43
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:24:19-43
 activity#com.example.jessl.alarm.Chat
-ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:25:9-42
+ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:25:9-42
 	android:name
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:25:19-39
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:25:19-39
 activity#com.example.jessl.alarm.Food
-ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:26:9-51
+ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:26:9-51
 	android:name
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml:26:19-39
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:26:19-39
+activity#com.example.jessl.alarm.foodmenu
+ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:27:9-55
+	android:name
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml:27:19-43
 uses-sdk
-INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml
 MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\cf2662074f2af9081d9071053571b2dd\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\cf2662074f2af9081d9071053571b2dd\AndroidManifest.xml:5:5-44
 MERGED from [com.applandeo:material-calendar-view:1.5.1] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\material-calendar-view-1.5.1.aar\b0c568f18f7068f17d27f78c4f2ffb48\AndroidManifest.xml:7:5-9:41
@@ -179,14 +183,14 @@ MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\xipeng\.gradle\ca
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\9c76ce2888516debc0b05a51b4f7ca1c\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\775c456e014f7b55d48b29badca94984\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\775c456e014f7b55d48b29badca94984\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\36f5b905e69c8ce8a99d0a1e7d6b9a6c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\36f5b905e69c8ce8a99d0a1e7d6b9a6c\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\69a4f5de1bddcbad988e976f95ad0f54\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\69a4f5de1bddcbad988e976f95ad0f54\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\63618a401dde0cc0a0b73aad431567cc\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\63618a401dde0cc0a0b73aad431567cc\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:28.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\10a32e0100a16263c2ed1aa9b93c24d2\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:28.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\10a32e0100a16263c2ed1aa9b93c24d2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\36f5b905e69c8ce8a99d0a1e7d6b9a6c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\36f5b905e69c8ce8a99d0a1e7d6b9a6c\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\ff726d8b62a48e8766381676b7f2deb6\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\ff726d8b62a48e8766381676b7f2deb6\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\9a44dbb8b0d3cd4843c5473d6a0afb25\AndroidManifest.xml:20:5-44
@@ -265,18 +269,18 @@ MERGED from [com.android.support:interpolator:28.0.0] C:\Users\xipeng\.gradle\ca
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\ccd4bbeb721fc5a2edf53f65c7d0b811\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\1a28a0a1ca7ea2663291c8e704c443ec\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\1a28a0a1ca7ea2663291c8e704c443ec\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\242100ca92f5d668a9895b9e7a36b3aa\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\xipeng\Desktop\Alarm\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\xipeng\Desktop\FACS\Alarm\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\69a4f5de1bddcbad988e976f95ad0f54\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\xipeng\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\63618a401dde0cc0a0b73aad431567cc\AndroidManifest.xml:23:5-67
