@@ -1,13 +1,12 @@
 package com.example.jessl.alarm;
 
 import android.content.Intent;
-import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.view.View.OnClickListener;
 import android.widget.ImageButton;
+
+import com.example.jessl.alarm.schedule.Schedule;
 
 public class HomeActivity extends AppCompatActivity {
 
