@@ -5,7 +5,8 @@
     android:orientation="horizontal"
     android:layout_marginBottom="20dp"
     android:background="@drawable/layout_sdoes"
-    android:layout_height="100dp">
+    android:layout_height="100dp"
+    tools:context=".schedule.SDoes">
 
     <LinearLayout
         android:layout_width="250dp"
@@ -35,20 +36,18 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_marginTop="30dp"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        android:gravity="center">
+        android:layout_gravity="center">
 
         <TextView
             android:id="@+id/datedoes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="4/3/2019"
-            android:layout_marginTop="8dp"
-            android:gravity="right"
+            android:textAlignment="center"
             android:textColor="#ff66a3"
             android:textSize="20sp"/>
     </LinearLayout>
 </LinearLayout>
+

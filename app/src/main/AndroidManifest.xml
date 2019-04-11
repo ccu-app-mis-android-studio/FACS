@@ -23,7 +23,6 @@
         <activity android:name=".HomeActivity" />
         <activity android:name=".Alarm" />
         <activity android:name=".schedule.Schedule" />
-        <activity android:name=".schedule.SEvent" />
         <activity android:name=".Chat" />
         <activity android:name=".Food" />
     </application>

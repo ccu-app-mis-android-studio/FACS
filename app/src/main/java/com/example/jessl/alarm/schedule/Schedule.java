@@ -25,18 +25,17 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.Locale;
 
-
 public class Schedule extends AppCompatActivity {
-
-    DatabaseReference reference;
-    RecyclerView ourdoes;
-    ArrayList<SDoes> list;
-    SAdapter sadapter;
 
     private Button api;
     private Button add;
     TextView myDate1;
     CalendarView calendarView;
+
+    DatabaseReference reference;
+    RecyclerView ourdoes;
+    ArrayList<SDoes> list;
+    SAdapter sAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,17 +70,15 @@ public class Schedule extends AppCompatActivity {
             }
         });
 
-
         add = (Button) findViewById(R.id.Add);
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(Schedule.this, SEvent.class);
-                startActivity(i);
+
             }
         });
 
-        // working with data
+        //working with data
         ourdoes = findViewById(R.id.ourdoes);
         ourdoes.setLayoutManager(new LinearLayoutManager(this));
         list = new ArrayList<SDoes>();
@@ -91,15 +88,15 @@ public class Schedule extends AppCompatActivity {
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                // set code to retrive data and replace layout
+                // set code to retrieve data and replace layout
                 for(DataSnapshot dataSnapshot1: dataSnapshot.getChildren())
                 {
                     SDoes p = dataSnapshot1.getValue(SDoes.class);
                     list.add(p);
                 }
-                sadapter = new SAdapter(Schedule.this, list);
-                ourdoes.setAdapter(sadapter);
-                sadapter.notifyDataSetChanged();
+                sAdapter = new SAdapter(Schedule.this, list);
+                ourdoes.setAdapter(sAdapter);
+                sAdapter.notifyDataSetChanged();
             }
 
             @Override

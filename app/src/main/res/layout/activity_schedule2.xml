@@ -67,16 +67,16 @@
             android:background="@color/itemHighlightColor">
         </CalendarView>
 
-        <android.support.v7.widget.RecyclerView
+    <android.support.v7.widget.RecyclerView
             android:id="@+id/ourdoes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp">
 
-        </android.support.v7.widget.RecyclerView>
+    </android.support.v7.widget.RecyclerView>
 
-<LinearLayout
+    <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
@@ -94,6 +94,6 @@
         android:layout_height="60dp"
         android:background="@drawable/plus" />
 
-</LinearLayout>
-</LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
 </ScrollView>
