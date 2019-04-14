@@ -9,7 +9,7 @@
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
-        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\93af654fc8505edab674e581b19b3e11\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\f17775c125214dfdf98721e203ad94e9\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -26,6 +26,10 @@
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9c76ce2888516debc0b05a51b4f7ca1c\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\anim_fab_slide_out_to_left.xml.flat",
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\fab-1.6.4.aar\\27f11255f2e0c00df1f086c590d854dc\\res\\anim\\fab_slide_out_to_left.xml"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -69,7 +73,7 @@
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
-        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\93af654fc8505edab674e581b19b3e11\\res\\layout\\notification_media_cancel_action.xml"
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\f17775c125214dfdf98721e203ad94e9\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -112,6 +116,10 @@
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c3cb92fce3945de32768e04b48dbbf4f\\res\\layout\\notification_template_icon_group.xml"
     },
     {
+        "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\anim_fab_slide_out_to_right.xml.flat",
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\fab-1.6.4.aar\\27f11255f2e0c00df1f086c590d854dc\\res\\anim\\fab_slide_out_to_right.xml"
+    },
+    {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_dialog_material_background.xml.flat",
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9c76ce2888516debc0b05a51b4f7ca1c\\res\\drawable-v21\\abc_dialog_material_background.xml"
     },
@@ -152,12 +160,12 @@
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9c76ce2888516debc0b05a51b4f7ca1c\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mtrl_snackbar_background.xml.flat",
-        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\b519da88f0cb409132e3fc29e290f4c2\\res\\drawable\\mtrl_snackbar_background.xml"
-    },
-    {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9c76ce2888516debc0b05a51b4f7ca1c\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mtrl_snackbar_background.xml.flat",
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\b519da88f0cb409132e3fc29e290f4c2\\res\\drawable\\mtrl_snackbar_background.xml"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -176,16 +184,20 @@
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9c76ce2888516debc0b05a51b4f7ca1c\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item.xml.flat",
-        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\b519da88f0cb409132e3fc29e290f4c2\\res\\layout\\design_navigation_item.xml"
-    },
-    {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\87559e247a786bec4e712f0c9ab562a9\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
+        "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item.xml.flat",
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\b519da88f0cb409132e3fc29e290f4c2\\res\\layout\\design_navigation_item.xml"
+    },
+    {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21_design_appbar_state_list_animator.xml.flat",
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\b519da88f0cb409132e3fc29e290f4c2\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_fab_add.png.flat",
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\fab-1.6.4.aar\\27f11255f2e0c00df1f086c590d854dc\\res\\drawable-xhdpi-v4\\fab_add.png"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_header.xml.flat",
@@ -198,6 +210,10 @@
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9c76ce2888516debc0b05a51b4f7ca1c\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_phone.png.flat",
+        "source": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\src\\main\\res\\drawable\\phone.png"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\anim_design_bottom_sheet_slide_out.xml.flat",
@@ -222,6 +238,10 @@
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9c76ce2888516debc0b05a51b4f7ca1c\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\anim_fab_scale_down.xml.flat",
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\fab-1.6.4.aar\\27f11255f2e0c00df1f086c590d854dc\\res\\anim\\fab_scale_down.xml"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -300,6 +320,10 @@
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9c76ce2888516debc0b05a51b4f7ca1c\\res\\drawable-watch-v20\\abc_dialog_material_background.xml"
     },
     {
+        "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\anim_fab_scale_up.xml.flat",
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\fab-1.6.4.aar\\27f11255f2e0c00df1f086c590d854dc\\res\\anim\\fab_scale_up.xml"
+    },
+    {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9c76ce2888516debc0b05a51b4f7ca1c\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
@@ -330,6 +354,10 @@
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple.xml.flat",
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9c76ce2888516debc0b05a51b4f7ca1c\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\anim_fab_slide_in_from_right.xml.flat",
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\fab-1.6.4.aar\\27f11255f2e0c00df1f086c590d854dc\\res\\anim\\fab_slide_in_from_right.xml"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -500,12 +528,24 @@
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9c76ce2888516debc0b05a51b4f7ca1c\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
+        "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_fab_add.png.flat",
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\fab-1.6.4.aar\\27f11255f2e0c00df1f086c590d854dc\\res\\drawable-mdpi-v4\\fab_add.png"
+    },
+    {
+        "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\anim_hide_to_bottom.xml.flat",
+        "source": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\src\\main\\res\\anim\\hide_to_bottom.xml"
+    },
+    {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility_off.png.flat",
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\b519da88f0cb409132e3fc29e290f4c2\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9c76ce2888516debc0b05a51b4f7ca1c\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_fab_add.png.flat",
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\fab-1.6.4.aar\\27f11255f2e0c00df1f086c590d854dc\\res\\drawable-hdpi-v4\\fab_add.png"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_arrow_right.png.flat",
@@ -569,7 +609,7 @@
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
-        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\93af654fc8505edab674e581b19b3e11\\res\\layout\\notification_media_action.xml"
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\f17775c125214dfdf98721e203ad94e9\\res\\layout\\notification_media_action.xml"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
@@ -793,7 +833,7 @@
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
-        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\93af654fc8505edab674e581b19b3e11\\res\\layout\\notification_template_big_media.xml"
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\f17775c125214dfdf98721e203ad94e9\\res\\layout\\notification_template_big_media.xml"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -886,6 +926,10 @@
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_design_bottom_navigation_item_background.xml.flat",
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\b519da88f0cb409132e3fc29e290f4c2\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\anim_show_from_bottom.xml.flat",
+        "source": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\src\\main\\res\\anim\\show_from_bottom.xml"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_ripple_color.xml.flat",
@@ -985,7 +1029,7 @@
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
-        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\93af654fc8505edab674e581b19b3e11\\res\\layout\\notification_template_lines_media.xml"
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\f17775c125214dfdf98721e203ad94e9\\res\\layout\\notification_template_lines_media.xml"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -1005,7 +1049,7 @@
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow.xml.flat",
-        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\93af654fc8505edab674e581b19b3e11\\res\\layout\\notification_template_big_media_narrow.xml"
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\f17775c125214dfdf98721e203ad94e9\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
@@ -1157,7 +1201,7 @@
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
-        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\93af654fc8505edab674e581b19b3e11\\res\\layout\\notification_template_media_custom.xml"
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\f17775c125214dfdf98721e203ad94e9\\res\\layout\\notification_template_media_custom.xml"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -1310,6 +1354,10 @@
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_avd_show_password.xml.flat",
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\b519da88f0cb409132e3fc29e290f4c2\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\anim_fab_slide_in_from_left.xml.flat",
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\fab-1.6.4.aar\\27f11255f2e0c00df1f086c590d854dc\\res\\anim\\fab_slide_in_from_left.xml"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
@@ -1616,6 +1664,10 @@
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9c76ce2888516debc0b05a51b4f7ca1c\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
+        "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_location.png.flat",
+        "source": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\src\\main\\res\\drawable\\location.png"
+    },
+    {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9c76ce2888516debc0b05a51b4f7ca1c\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
@@ -1844,12 +1896,16 @@
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9c76ce2888516debc0b05a51b4f7ca1c\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
+        "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_fab_add.png.flat",
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\fab-1.6.4.aar\\27f11255f2e0c00df1f086c590d854dc\\res\\drawable-xxhdpi-v4\\fab_add.png"
+    },
+    {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9c76ce2888516debc0b05a51b4f7ca1c\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
-        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\93af654fc8505edab674e581b19b3e11\\res\\layout\\notification_template_big_media_custom.xml"
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\f17775c125214dfdf98721e203ad94e9\\res\\layout\\notification_template_big_media_custom.xml"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_food.xml.flat",
@@ -1941,7 +1997,7 @@
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
-        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\93af654fc8505edab674e581b19b3e11\\res\\layout\\notification_template_media.xml"
+        "source": "C:\\Users\\xipeng\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\f17775c125214dfdf98721e203ad94e9\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "C:\\Users\\xipeng\\Desktop\\FACS\\Alarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",

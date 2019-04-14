@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+
 public class Food extends AppCompatActivity {
     ImageButton menu;
 
@@ -22,5 +23,6 @@ public class Food extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
     }
 }
