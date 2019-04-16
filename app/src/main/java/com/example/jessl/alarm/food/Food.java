@@ -17,12 +17,23 @@ public class Food extends AppCompatActivity {
     ImageButton menu;
     ImageButton drink1;
     ImageButton Food1;
-    Random r ;
+    Random r, r2;
     Integer[] images = {
             R.drawable.huangmama,
             R.drawable.dizhonghao,
             R.drawable.wangji,
+            R.drawable.lamian,
+
     };
+
+
+    Integer[] images2 = {
+            R.drawable.guozhen,
+            R.drawable.qilixiang,
+            R.drawable.fresh,
+
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,19 +48,23 @@ public class Food extends AppCompatActivity {
 //            }
 //        });
         drink1 = (ImageButton) findViewById(R.id.drinkpng);
+        Food1 = (ImageButton) findViewById(R.id.foodpng);
 
         r = new Random();
+        r2 = new Random();
 
         drink1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                menu.setImageResource(images2[r2.nextInt(images2.length)]);
+            }
+        });
+        Food1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 menu.setImageResource(images[r.nextInt(images.length)]);
             }
         });
     }
-
-
-
-
-    }
+}
 
