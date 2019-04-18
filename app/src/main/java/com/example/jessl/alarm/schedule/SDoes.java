@@ -8,43 +8,29 @@ public class SDoes {
 
     public SDoes() {
     }
-
     public SDoes(String iddoes, String descdoes, String datedoes,String keydoes) {
         this.iddoes = iddoes;
         this.datedoes = datedoes;
         this.descdoes = descdoes;
         this.keydoes = keydoes;
     }
-
     public String getKeydoes() {
-        return keydoes;
-    }
-
+        return keydoes; }
     public void setKeydoes(String keydoes) {
-        this.keydoes = keydoes;
-    }
+        this.keydoes = keydoes; }
 
     public String getIddoes() {
-        return iddoes;
-    }
-
+        return iddoes; }
     public void setIddoes(String iddoes) {
-        this.iddoes = iddoes;
-    }
+        this.iddoes = iddoes; }
 
     public String getDatedoes() {
-        return datedoes;
-    }
-
+        return datedoes; }
     public void setDatedoes(String datedoes) {
-        this.datedoes = datedoes;
-    }
+        this.datedoes = datedoes; }
 
     public String getDescdoes() {
-        return descdoes;
-    }
-
+        return descdoes; }
     public void setDescdoes(String descdoes) {
-        this.descdoes = descdoes;
-    }
+        this.descdoes = descdoes; }
 }

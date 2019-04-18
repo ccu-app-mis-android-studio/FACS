@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Alarm</string>
+    <string name="app_name">FACS</string>
     <string name="action_settings">Settings</string>
     <string name="food">吃你FOOD</string>
     <string name="alarm">吵你LOUD</string>
