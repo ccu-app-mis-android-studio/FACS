@@ -84,27 +84,27 @@ public class Schedule extends AppCompatActivity {
         list = new ArrayList<SDoes>();
 
         // get data from firebase
-        reference = FirebaseDatabase.getInstance().getReference().child("FACS");
-        reference.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                // set code to retrieve data and replace layout
-                for(DataSnapshot dataSnapshot1: dataSnapshot.getChildren())
-                {
-                    SDoes p = dataSnapshot1.getValue(SDoes.class);
-                    list.add(p);
-                }
-                sAdapter = new SAdapter(Schedule.this, list);
-                ourdoes.setAdapter(sAdapter);
-                sAdapter.notifyDataSetChanged();
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-                // set code to show an error
-                Toast.makeText(getApplicationContext(), "No Data", Toast.LENGTH_SHORT).show();
-            }
-        });
+//        reference = FirebaseDatabase.getInstance().getReference().child("FACS");
+//        reference.addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(DataSnapshot dataSnapshot) {
+//                // set code to retrieve data and replace layout
+//                for(DataSnapshot dataSnapshot1: dataSnapshot.getChildren())
+//                {
+//                    SDoes p = dataSnapshot1.getValue(SDoes.class);
+//                    list.add(p);
+//                }
+//                sAdapter = new SAdapter(Schedule.this, list);
+//                ourdoes.setAdapter(sAdapter);
+//                sAdapter.notifyDataSetChanged();
+//            }
+//
+//            @Override
+//            public void onCancelled(DatabaseError databaseError) {
+//                // set code to show an error
+//                Toast.makeText(getApplicationContext(), "No Data", Toast.LENGTH_SHORT).show();
+//            }
+//        });
     }
 }
 
