@@ -1,33 +1,26 @@
 package com.example.jessl.alarm.schedule;
 
 import android.support.annotation.NonNull;
-import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.system.ErrnoException;
+import android.view.Menu;
 import android.widget.TextView;
 import android.widget.CalendarView;
 import android.content.Intent;
 import android.view.View;
 
-import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
+
 import android.widget.Toast;
 
-import com.example.jessl.alarm.MainActivity;
-import com.example.jessl.alarm.MainActivity.*;
 import com.example.jessl.alarm.R;
+import com.example.jessl.alarm.schedule.adapter.ProductAdapter;
+import com.example.jessl.alarm.schedule.database.SqliteDatabase;
 import com.github.clans.fab.FloatingActionButton;
-import com.google.firebase.FirebaseApp;
-import com.google.firebase.FirebaseError;
-import com.google.firebase.FirebaseException;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
+import com.example.jessl.alarm.schedule.AddTaskActivity;
 
 public class Schedule extends AppCompatActivity {
 
@@ -37,15 +30,31 @@ public class Schedule extends AppCompatActivity {
     TextView myDate1;
     CalendarView calendarView;
 
-    DatabaseReference reference;
-    RecyclerView ourdoes;
-    ArrayList<SDoes> list;
-    SAdapter sAdapter;
+    private SqliteDatabase mDatabase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schedule2);
+
+        RecyclerView productView = (RecyclerView)findViewById(R.id.task_list);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+        productView.setLayoutManager(linearLayoutManager);
+        productView.setHasFixedSize(true);
+
+        mDatabase = new SqliteDatabase(this);
+        List<Product> allProducts = mDatabase.listProducts();
+
+
+        if(allProducts.size() > 0){
+            productView.setVisibility(View.VISIBLE);
+            ProductAdapter mAdapter = new ProductAdapter(this, allProducts);
+            productView.setAdapter(mAdapter);
+
+        }else {
+            productView.setVisibility(View.GONE);
+            Toast.makeText(this, "There is no task in the database. Start adding now", Toast.LENGTH_LONG).show();
+        }
 
         calendarView = (CalendarView) findViewById(R.id.calendarView);
         myDate1 = (TextView) findViewById(R.id.activity_main_text_day_of_month);
@@ -83,16 +92,18 @@ public class Schedule extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(Schedule.this, "Clicked", Toast.LENGTH_SHORT).show();
-                Intent i = new Intent(Schedule.this, SEvent.class);
-                startActivity(i);
+                Intent addTaskIntent = new Intent(Schedule.this, AddTaskActivity.class);
+                startActivity(addTaskIntent);
             }
         });
-
-        //working with data
-        ourdoes = findViewById(R.id.ourdoes);
-        ourdoes.setLayoutManager(new LinearLayoutManager(this));
-        list = new ArrayList<SDoes>();
     }
+
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        //return super.onCreateOptionsMenu(menu);
+//        getMenuInflater().inflate(R.menu.task_menu, menu);
+//        return true;
+//    }
 }
 
 

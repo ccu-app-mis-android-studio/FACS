@@ -5,8 +5,15 @@
     <string name="alarm">吵你LOUD</string>
     <string name="chat">聊你MEI</string>
     <string name="schedule">記你PLAN</string>
-    <string name="current_date">Feb, 2019</string>
-    <string name="add_event">ADD CALENDAR EVENT</string>
+    <string name="reminder">Set a reminder alarm for this task</string>
+    <string name="invalid_input_values">Some input fields must be filled</string>
+    <string name="task_date_and_time">Task date and time must be add</string>
+
+
+
+    <string name="add_new_task">Add task</string>
+    <string name="task_name">Task name</string>
+    <string name="task_due_date">Task due date</string>
     <string name="sun">SUN</string>
     <string name="mon">MON</string>
     <string name="tue">TUE</string>

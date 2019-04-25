@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/action_add_task"
+        android:orderInCategory="200"
+        android:title="add new task"
+        android:icon="@drawable/mark"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_cancel_task"
+        android:orderInCategory="300"
+        android:title="Cancel"
+        android:icon="@drawable/cross"
+        app:showAsAction="ifRoom" />
+</menu>
