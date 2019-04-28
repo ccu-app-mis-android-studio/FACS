@@ -1,0 +1,26 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>即時聊天室</title>
+  <link rel="stylesheet" type="text/css" href="chat.css">
+  <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="./chat.js"></script>
+</head>
+
+<body>
+  <div class="mainWindow">
+    <div class="outChatWindow">
+      <div class="chatWindow"></div>
+    </div>
+    <div class="outInputWindow">
+        <div class="inputWindow">
+            <div class="divName">姓名：<input id="name"></div>
+            <div class="divContent">聊天內容：<br><input id="content"></div>
+            <div class="sendBtn"><button id="btn">發送</button></div>
+        </div>    
+    </div>    
+  </div>  
+</body>
+</html>

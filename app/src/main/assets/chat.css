@@ -1,0 +1,62 @@
+body{
+  line-height: 50px;
+  background-image: url("./background.jpg");  
+  background-size:100% 100%;
+}
+
+button{
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+#show div div{
+  display: inline-block;
+  color:#aaa;
+  margin-right: 10px;
+}
+
+.mainWindow{
+  display: flex;    
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;  
+}
+
+.outChatWindow{
+  height: 100%;
+  display: flex;  
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.chatWindow{
+  width: 70%;
+  height: 100%;
+  border: black solid 2px;
+  background-color: aliceblue;
+  opacity: 0.6;
+  padding-left: 1%;
+  overflow: auto;
+}
+
+.outInputWindow{
+  height: 50%;
+  display: flex;  
+  justify-content: center;  
+}
+
+.inputWindow{
+  display: flex;  
+  flex-direction: column;
+  width: 70%;
+}
+
+#content{
+  width: 100%;
+}
+
+.sendBtn{
+  width:30%;
+  margin-top: 3%;
+}
