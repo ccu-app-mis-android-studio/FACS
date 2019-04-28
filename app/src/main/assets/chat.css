@@ -1,5 +1,5 @@
 body{
-  line-height: 50px;
+  line-height: 23px;
   background-image: url("./background.jpg");  
   background-size:100% 100%;
 }
@@ -26,8 +26,7 @@ button{
   height: 100%;
   display: flex;  
   justify-content: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 2%;  
 }
 
 .chatWindow{
@@ -36,8 +35,14 @@ button{
   border: black solid 2px;
   background-color: aliceblue;
   opacity: 0.6;
+  padding-top: 0.5%;
   padding-left: 1%;
   overflow: auto;
+}
+
+.eachChatWindowText{
+  display: flex;  
+  flex-direction: row;
 }
 
 .outInputWindow{
@@ -49,11 +54,17 @@ button{
 .inputWindow{
   display: flex;  
   flex-direction: column;
+  justify-content: flex-end;
   width: 70%;
 }
 
 #content{
-  width: 100%;
+  width: 100%;  
+  margin-top: 1%;
+}
+
+.divContent{  
+  margin-top: 1%;
 }
 
 .sendBtn{

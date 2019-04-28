@@ -49,16 +49,21 @@ $(function(){
   database.once('value', function(snapshot) {
     $chatWindow.html('');
     for(var i in snapshot.val()){
-       $chatWindow.append(snapshot.val()[i].time + '&nbsp&nbsp' + snapshot.val()[i].name + ' 說: ' + snapshot.val()[i].content + "<BR>");
-       
+        $chatWindow.append('<div class="eachChatWindowText">' + '<div>' + snapshot.val()[i].time + '</div>' + '&nbsp' + '<div>' + snapshot.val()[i].name + '</div>&nbsp說：<div>' + snapshot.val()[i].content + '</div>' + '</div>');
+      
     }
   });
 
   //每一次資料庫有變動時，獲取最新一筆內容呈現
   database.limitToLast(1).on('value', function(snapshot) {
     for(var i in snapshot.val()){
-       $chatWindow.append(snapshot.val()[i].time + '&nbsp&nbsp' + snapshot.val()[i].name + ' 說: ' + snapshot.val()[i].content + "<BR>");
-       
+      //我也不知道會甚麼if條件式要反過來寫才會是我要的結果...
+      if($chatWindow.find('.id' + ms) == snapshot.val()[i].name){
+        $chatWindow.append('<div class="eachChatWindowText">' + '<div>' + snapshot.val()[i].time + '</div>' + '&nbsp' + '<div >' + snapshot.val()[i].name + '</div>&nbsp說：<div>' + snapshot.val()[i].content + '</div>' + '</div>');
+       }    
+      else{
+        $chatWindow.append('<div class="eachChatWindowText">' + '<div>' + snapshot.val()[i].time + '</div>' + '&nbsp' + '<div style="color:red">' + snapshot.val()[i].name + '</div>&nbsp說：<div>' + snapshot.val()[i].content + '</div>' + '</div>');
+      }
     }
     /*
      //如果是自己發出去的文字，就改變顏色
@@ -69,7 +74,5 @@ $(function(){
       color: '#f00'
     });
     */
-  });
-  
-  
+  }); 
 });
