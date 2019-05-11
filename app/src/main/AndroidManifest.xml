@@ -25,7 +25,7 @@
         <activity android:name=".schedule.Schedule" />
         <activity android:name=".Chat" />
         <activity android:name=".food.Food" />
-        <activity android:name=".foodmenu" />
+        <activity android:name=".food.foodmenu" />
     </application>
 
 </manifest>
