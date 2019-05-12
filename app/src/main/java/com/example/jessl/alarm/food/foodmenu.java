@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 import com.example.jessl.alarm.R;
 import com.github.clans.fab.FloatingActionButton;
+import com.github.clans.fab.FloatingActionMenu;
 
 import android.view.ScaleGestureDetector;
 import android.view.MotionEvent;
