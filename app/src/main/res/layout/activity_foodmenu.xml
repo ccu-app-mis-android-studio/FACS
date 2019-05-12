@@ -23,6 +23,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:layout_marginTop="15dp"
+
             android:background="#fEEB"
             android:paddingHorizontal="8dp"
             android:text="菜單"
@@ -72,7 +73,7 @@
             android:layout_marginTop="10dp" />
 
         <com.github.clans.fab.FloatingActionMenu
-            android:id="@+id/icon"
+            android:id="@+id/phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -91,7 +92,7 @@
             fab:menu_fab_hide_animation="@anim/hide_to_bottom"
             fab:menu_fab_show_animation="@anim/show_from_bottom"
             fab:menu_fab_size="normal"
-            fab:menu_icon="@drawable/fab_add"
+            fab:menu_icon="@drawable/phone"
             fab:menu_labels_colorNormal="#333333"
             fab:menu_labels_colorPressed="#444444"
             fab:menu_labels_colorRipple="#66FFFFFF"
@@ -111,7 +112,6 @@
             fab:menu_labels_singleLine="false"
             fab:menu_labels_textColor="#FFFFFF"
             fab:menu_labels_textSize="14sp"
-            fab:menu_openDirection="up"
             fab:menu_shadowColor="#66000000"
             fab:menu_shadowRadius="4dp"
             fab:menu_shadowXOffset="1dp"
@@ -119,22 +119,17 @@
             fab:menu_showShadow="true">
 
             <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/iconmenu1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            fab:fab_label="Phone"
+                android:id="@+id/iconmenu1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_label="Phone"
                 android:scaleType="fitXY"
                 fab:fab_size="mini"
                 android:src="@drawable/phone"/>
 
-            <com.github.clans.fab.FloatingActionButton
-                android:id="@+id/iconmenu2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                fab:fab_size="mini"
-                fab:fab_label="Location"
-                android:scaleType="fitXY"
-                android:src="@drawable/location" />
+
+
+
 
     </com.github.clans.fab.FloatingActionMenu>
         </RelativeLayout>

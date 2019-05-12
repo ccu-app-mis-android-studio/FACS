@@ -51,7 +51,9 @@ public class Food extends AppCompatActivity {
                         Intent intent = new Intent(Food.this, foodmenu.class);
                         Bundle bundle = new Bundle();
                         int x = (factArray[0].getmImage1());
+                        String y = (factArray[0].getmcall1());
                         bundle.putInt("foodmenupic", x);
+                        bundle.putString("foodmenucall", y);
 
                         intent.putExtras(bundle);
                         // Start the SecondActivity
@@ -73,7 +75,9 @@ public class Food extends AppCompatActivity {
                         Intent intent = new Intent(Food.this, foodmenu.class);
                         Bundle bundle = new Bundle();
                         int x = (factArray2[0].getmImage3());
+                        String y = (factArray2[0].getcall2());
                         bundle.putInt("foodmenupic", x);
+                        bundle.putString("foodmenucall", y);
 
                         intent.putExtras(bundle);
                         // Start the SecondActivity
@@ -85,22 +89,6 @@ public class Food extends AppCompatActivity {
     }
 
 
-//        menu.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//
-//                Intent intent = new Intent(Food.this, foodmenu.class);
-//                Bundle bundle = new Bundle();
-//                int x = (factArray[0].getmImage1());
-//                bundle.putInt("foodmenupic", x );
-//
-//                intent.putExtras(bundle);
-//                // Start the SecondActivity
-//                startActivity(intent);
-//            }
-//        });
-//    }
-
         /////食物隨機
         public void showRandomFact(){
             shuffleFacts();
@@ -108,15 +96,16 @@ public class Food extends AppCompatActivity {
             ResName.setText(factArray[0].getmFact());
         }
 
-//        Facts f01 = new Facts(R.drawable.huangmama, "黃媽媽", R.drawable.huangmenu,"0946548546");
-        Facts f02 = new Facts(R.drawable.test1, "地中海炒飯", R.drawable.dizonghai,"46546489546 ");
-        Facts f03 = new Facts(R.drawable.wangji, "旺記", R.drawable.test1,"5465465165454");
-        Facts f04 = new Facts(R.drawable.lamian, "富成屋拉麵", R.drawable.lamianmenu,"4646546546546");
-        Facts f05 = new Facts(R.drawable.aka, "a咖平價鐵板", R.drawable.akamenu,"4654659865465");
-        Facts f06 = new Facts(R.drawable.hong,"紅樓極麺",R.drawable.hongmenu,"6549546544");
+        Facts f01 = new Facts(R.drawable.huangmama, "黃媽媽", R.drawable.huangmenu,"0946548546");
+        Facts f02 = new Facts(R.drawable.dizhonghai, "地中海炒飯", R.drawable.dizonghai,"0911196137");
+        Facts f03 = new Facts(R.drawable.wangji, "旺記", R.drawable.wangjimenu,"0910643658");
+        Facts f04 = new Facts(R.drawable.lamian, "富成屋拉麵", R.drawable.lamianmenu,"0910643658");
+        Facts f05 = new Facts(R.drawable.aka, "a咖平價鐵板", R.drawable.akamenu,"0910643658");
+        Facts f06 = new Facts(R.drawable.hong,"紅樓極麺",R.drawable.hongmenu,"0910643658");
+        Facts f07 = new Facts(R.drawable.dasixi,"紅樓極麺",R.drawable.dasiximenu,"0910643658");
 
         Facts[] factArray = new Facts[]{
-                f06, f02, f03, f04, f05
+                f01, f02, f03, f04, f05,f06,f07
         };
 
         public void shuffleFacts () {
@@ -130,9 +119,9 @@ public class Food extends AppCompatActivity {
             ResName.setText(factArray2[0].getmFact2());
         }
 
-        Facts2 d01 = new Facts2(R.drawable.guozhen, "果真", R.drawable.guozhenmenu);
-        Facts2 d02 = new Facts2(R.drawable.qilixiang, "七里香", R.drawable.aka);
-        Facts2 d03 = new Facts2(R.drawable.fresh, "鮮茶道", R.drawable.aka);
+        Facts2 d01 = new Facts2(R.drawable.guozhen, "果真", R.drawable.guozhenmenu,"0946548546");
+        Facts2 d02 = new Facts2(R.drawable.qilixiang, "七里香", R.drawable.qilimenu,"0946548546");
+        Facts2 d03 = new Facts2(R.drawable.fresh, "鮮茶道", R.drawable.freshmenu,"0946548546");
 
         Facts2[] factArray2 = new Facts2[]{
                 d01, d02, d03,

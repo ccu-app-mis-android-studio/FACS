@@ -1,83 +1,158 @@
 package com.example.jessl.alarm.food;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 import com.example.jessl.alarm.R;
 import com.github.clans.fab.FloatingActionButton;
 
+import android.view.ScaleGestureDetector;
+import android.view.MotionEvent;
+
 public class foodmenu extends AppCompatActivity {
 
     private FloatingActionButton icon1;
     private FloatingActionButton icon2;
-//    private Integer food;
-//    private ImageView menupicture;
+    private ScaleGestureDetector mScaleGestureDetector;
+    private float mScaleFactor = 1.0f;
+    private ImageView menupicture;
+    private float mPosX;
+    private float mPosY;
+
+    private float mLastTouchX;
+    private float mLastTouchY;
+    private int mActivePointerId = INVALID_POINTER_ID;
+    private static final int INVALID_POINTER_ID = -1;
+
+    private FloatingActionButton dial;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_foodmenu);
-        ImageView menupicture = (ImageView) findViewById(R.id.foodmenupic);
+        menupicture = (ImageView) findViewById(R.id.foodmenupic);
+        mScaleGestureDetector = new ScaleGestureDetector(this, new ScaleListener());
+        dial = (FloatingActionButton) findViewById(R.id.iconmenu1);
 
         //get intent
-
         Bundle bundle = this.getIntent().getExtras();
         int menupicfood = bundle.getInt("foodmenupic");
-//        int menupicdrink = bundle.getInt("drinkmenupic");
-//        int menupicdrink = bundle1.getInt("drinkmenupic");
-
-
-//        Facts f01 = new Facts(R.drawable.huangmama, "黃媽媽", R.drawable.huangmenu,"0946548546");
-//        Facts f02 = new Facts(R.drawable.test1, "地中海炒飯", R.drawable.dizonghai,"46546489546 ");
-//        Facts f03 = new Facts(R.drawable.wangji, "旺記", R.drawable.test1,"5465465165454");
-//        Facts f04 = new Facts(R.drawable.lamian, "富成屋拉麵", R.drawable.lamianmenu,"4646546546546");
-//        Facts f05 = new Facts(R.drawable.aka, "a咖平價鐵板", R.drawable.akamenu,"4654659865465");
-//        //Facts f06 = new Facts(R.drawable.hong,"紅樓極麺",R.drawable.hongmenu);
-//
-//        Facts[] factArray = new Facts[]{
-//                f01, f02, f03, f04, f05
-//        };
-//
-//        for (int foodmenu = 0 ; foodmenu<5;foodmenu++)
-//        {
-//
-//          if(factArray[foodmenu].equals(menupicfood))
-//          {
-//              int cc =foodmenu;
-//          }
-//        }
-
-
+        String foodmenucall = bundle.getString("foodmenucall");
         menupicture.setImageResource(menupicfood);
-//        menupicture.setImageResource(menupicdrink);
 
-      //  if food.menu is showRandomFact() then  int menupic = bundle1.getInt("foodmenupic"); , menupicture.setImageResource(menupic);
-       // else food.menu is showRandomFact2() then    int drinkpic = bundle1.getInt("drinkmenupic"); , menupicture.setImageResource(drinkpic);
-
-        icon1 = (FloatingActionButton) findViewById(R.id.iconmenu1);
-        icon2 = (FloatingActionButton) findViewById(R.id.iconmenu2);
-
-
-        icon1.setOnClickListener(new View.OnClickListener() {
+        dial.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Toast.makeText(foodmenu.this, "Clicked", Toast.LENGTH_SHORT).show();
+            public void onClick (View view){
+                dialContactPhone(foodmenucall);
+
             }
         });
 
-        icon2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(foodmenu.this, "Clicked", Toast.LENGTH_SHORT).show();
-            }
-        });
+//        icon1 = (FloatingActionButton) findViewById(R.id.iconmenu1);
+//        icon2 = (FloatingActionButton) findViewById(R.id.iconmenu2);
+
+
+//        icon1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Toast.makeText(foodmenu.this, "Clicked", Toast.LENGTH_SHORT).show();
+//            }
+//        });
+//
+//        icon2.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Toast.makeText(foodmenu.this, "Clicked", Toast.LENGTH_SHORT).show();
+//            }
+//        });
     }
 
-//    public void setMenupicture(ImageView menupicture) {
-//        this.menupicture = menupicture;
-//    }
-}
+    // this redirects all touch events in the activity to the gesture detector
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        mScaleGestureDetector.onTouchEvent(event);
 
+        final int action = event.getAction();
+        switch (action & MotionEvent.ACTION_MASK) {
+            case MotionEvent.ACTION_DOWN: {
+                final float x = event.getX();
+                final float y = event.getY();
+
+                mLastTouchX = x;
+                mLastTouchY = y;
+                mActivePointerId = event.getPointerId(0);
+                break;
+            }
+
+            case MotionEvent.ACTION_MOVE: {
+                final int pointerIndex = event.findPointerIndex(mActivePointerId);
+                final float x = event.getX(pointerIndex);
+                final float y = event.getY(pointerIndex);
+
+                // Only move if the ScaleGestureDetector isn't processing a gesture.
+                if (!mScaleGestureDetector.isInProgress()) {
+                    final float dx = x - mLastTouchX;
+                    final float dy = y - mLastTouchY;
+
+                    mPosX += dx;
+                    mPosY += dy;
+                }
+
+                mLastTouchX = x;
+                mLastTouchY = y;
+
+                break;
+            }
+
+            case MotionEvent.ACTION_UP: {
+                mActivePointerId = INVALID_POINTER_ID;
+                break;
+            }
+
+            case MotionEvent.ACTION_CANCEL: {
+                mActivePointerId = INVALID_POINTER_ID;
+                break;
+            }
+
+            case MotionEvent.ACTION_POINTER_UP: {
+                final int pointerIndex = (event.getAction() & MotionEvent.ACTION_POINTER_INDEX_MASK)
+                        >> MotionEvent.ACTION_POINTER_INDEX_SHIFT;
+                final int pointerId = event.getPointerId(pointerIndex);
+                if (pointerId == mActivePointerId) {
+                    // This was our active pointer going up. Choose a new
+                    // active pointer and adjust accordingly.
+                    final int newPointerIndex = pointerIndex == 0 ? 1 : 0;
+                    mLastTouchX = event.getX(newPointerIndex);
+                    mLastTouchY = event.getY(newPointerIndex);
+                    mActivePointerId = event.getPointerId(newPointerIndex);
+                }
+                break;
+            }
+        }
+
+        return true;
+    }
+
+
+    private class ScaleListener extends ScaleGestureDetector.SimpleOnScaleGestureListener {
+
+        // when a scale gesture is detected, use it to resize the image
+        @Override
+        public boolean onScale(ScaleGestureDetector scaleGestureDetector){
+            mScaleFactor *= scaleGestureDetector.getScaleFactor();
+            menupicture.setScaleX(mScaleFactor);
+            menupicture.setScaleY(mScaleFactor);
+            return true;
+        }
+    }
+
+
+    private void dialContactPhone(final String phoneNumber) {
+        startActivity(new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phoneNumber, null)));
+    }
+}
