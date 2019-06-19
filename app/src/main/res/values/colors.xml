@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black_semi_transparent">#B2000000</color>
-    <color name="colorPrimary">#000000</color>
-    <color name="colorPrimaryDark">#26D3AB</color>
+    <color name="colorPrimaryDark">#056CB9</color>
+    <color name="colorPrimary">#1EBEAD</color>
     <color name="colorAccent">#F50057</color>
     <color name="colorWhite">#ffffff</color>
     <color name="colorBlack">#000000</color>
-    <color name="pink_pressed">#ec407a</color>
-    <color name="pink">#e91e63</color>
-    <color name="white_pressed">#f1f1f1</color>
+    <color name="colorBackground">#EDF9FF</color>
+
 </resources>

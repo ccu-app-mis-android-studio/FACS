@@ -6,8 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-import com.example.jessl.alarm.schedule.Schedule;
 import com.example.jessl.alarm.food.Food;
+import com.example.jessl.alarm.schedule.Schedule;
 
 public class HomeActivity extends AppCompatActivity {
 

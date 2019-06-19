@@ -1,99 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:orientation="vertical">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="@string/schedule"
-        android:background="#f5f9b9"
-        android:textSize="50dp"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        android:textColor="#ff1568"/>
-
-        <TextView
-            android:id="@+id/activity_main_text_day_of_month"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:includeFontPadding="false"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#D13131"
-            android:textSize="40sp"/>
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".schedule.Schedule"
+    android:background="@drawable/background3">
 
         <LinearLayout
-            android:id="@+id/activity_main_view_separator"
-            android:layout_width="269dp"
-            android:layout_height="56dp"
-            android:layout_below="@id/activity_main_text_day_of_month"
-            android:background="#D13131"
-            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:orientation="horizontal">
 
-            <View
-                android:layout_width="70dp"
-                android:layout_height="12dp"
-                android:layout_marginRight="10dp"
-                android:background="@color/colorWhite" />
-
-            <ImageView
+            <TextView
+                android:id="@+id/activity_main_text_day_of_month"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/calendar_icon" />
-
-            <View
-                android:layout_width="70dp"
-                android:layout_height="12dp"
-                android:layout_marginLeft="10dp"
-                android:background="@color/colorWhite" />
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:includeFontPadding="false"
+                android:textStyle="bold"
+                android:textColor="#32BD2C"
+                android:textSize="40sp"/>
         </LinearLayout>
 
         <CalendarView
             android:id="@+id/calendarView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
-            android:firstDayOfWeek="2"
-            android:background="@color/itemHighlightColor">
-        </CalendarView>
-
-    <android.support.v7.widget.RecyclerView
-            android:id="@+id/ourdoes"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp">
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorWhite"
+            android:firstDayOfWeek="2"></CalendarView>
 
-    </android.support.v7.widget.RecyclerView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:layout_gravity="right"
-    android:layout_marginRight="10dp">
-    <Button
-        android:id="@+id/calendarAPI"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@drawable/calendarapi"/>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/task_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+            </android.support.v7.widget.RecyclerView>
 
-    <Button
-        android:id="@+id/Add"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@drawable/plus" />
+            <com.github.clans.fab.FloatingActionMenu
+                android:id="@+id/fabmenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="-2dp"
+                fab:menu_animationDelayPerItem="50"
+                fab:menu_backgroundColor="@android:color/transparent"
+                fab:menu_buttonSpacing="0dp"
+                fab:menu_colorNormal="#297FC9"
+                fab:menu_colorPressed="#03A9F4"
+                fab:menu_colorRipple="#99FFFFFF"
+                fab:menu_fab_hide_animation="@anim/hide_to_bottom"
+                fab:menu_fab_show_animation="@anim/show_from_bottom"
+                fab:menu_fab_size="normal"
+                fab:menu_icon="@drawable/fab_add"
+                fab:menu_labels_colorNormal="#333333"
+                fab:menu_labels_colorPressed="#444444"
+                fab:menu_labels_colorRipple="#66FFFFFF"
+                fab:menu_labels_cornerRadius="3dp"
+                fab:menu_labels_ellipsize="none"
+                fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+                fab:menu_labels_margin="0dp"
+                fab:menu_labels_maxLines="-1"
+                fab:menu_labels_padding="8dp"
+                fab:menu_labels_paddingBottom="4dp"
+                fab:menu_labels_paddingLeft="8dp"
+                fab:menu_labels_paddingRight="8dp"
+                fab:menu_labels_paddingTop="4dp"
+                fab:menu_labels_position="left"
+                fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+                fab:menu_labels_showShadow="true"
+                fab:menu_labels_singleLine="false"
+                fab:menu_labels_textColor="#FFFFFF"
+                fab:menu_labels_textSize="14sp"
+                fab:menu_openDirection="up"
+                fab:menu_shadowColor="#66000000"
+                fab:menu_shadowRadius="4dp"
+                fab:menu_shadowXOffset="1dp"
+                fab:menu_shadowYOffset="3dp"
+                fab:menu_showShadow="true">
 
-    </LinearLayout>
-    </LinearLayout>
-</ScrollView>
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/menuitem_1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/calendarapi24px"
+                    fab:fab_label="Google Calendar"
+                    fab:fab_size="mini" />
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/menuitem_2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/event24px"
+                    fab:fab_label="New Event"
+                    fab:fab_size="mini" />
+            </com.github.clans.fab.FloatingActionMenu>
+        </RelativeLayout>
+</LinearLayout>
+

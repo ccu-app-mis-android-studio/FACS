@@ -2,18 +2,15 @@ package com.example.jessl.alarm.food;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.MotionEvent;
+import android.view.ScaleGestureDetector;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Toast;
+
 import com.example.jessl.alarm.R;
 import com.github.clans.fab.FloatingActionButton;
-import com.github.clans.fab.FloatingActionMenu;
-
-import android.view.ScaleGestureDetector;
-import android.view.MotionEvent;
 
 public class foodmenu extends AppCompatActivity {
 

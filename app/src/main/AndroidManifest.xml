@@ -4,10 +4,11 @@
 
     <uses-permission android:name="android.permission.READ_CALENDAR" />
     <uses-permission android:name="android.permission.WRITE_CALENDAR" />
-    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -22,11 +23,19 @@
             </intent-filter>
         </activity>
         <activity android:name=".HomeActivity" />
-        <activity android:name=".Alarm" />
+        <activity android:name=".Alarm"
+            android:launchMode="singleInstance"/>
         <activity android:name=".schedule.Schedule" />
-        <activity android:name=".Chat" />
+        <activity android:name=".Chat"
+                  android:windowSoftInputMode="adjustResize"/>
         <activity android:name=".food.Food" />
         <activity android:name=".food.foodmenu" />
+
+        <receiver android:name=".AlarmReceiver" />
+
+        <service
+            android:name=".RingtonePlayingService"
+            android:enabled="true"></service>
     </application>
 
 </manifest>

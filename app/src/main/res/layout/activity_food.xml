@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".food.Food"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/blue">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -64,7 +65,9 @@
             android:layout_height="130dp"
             android:layout_marginLeft="80dp"
             android:layout_marginTop="25dp"
-            android:background="@drawable/cocktail"
+            android:scaleType="centerInside"
+            android:background="@drawable/custom_button"
+            android:src="@drawable/cocktail"
             android:layout_marginRight="60dp"
             android:layout_marginBottom="30dp" />
 
@@ -75,7 +78,9 @@
             android:layout_height="130dp"
             android:layout_marginEnd="80dp"
             android:layout_marginTop="25dp"
-            android:background="@drawable/dish"
+            android:scaleType="centerInside"
+            android:src="@drawable/dish"
+            android:background="@drawable/custom_button"
             android:layout_marginRight="60dp"
             android:layout_marginBottom="30dp" />
     </LinearLayout>

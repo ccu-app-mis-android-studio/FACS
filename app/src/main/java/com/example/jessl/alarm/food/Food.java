@@ -1,19 +1,15 @@
 package com.example.jessl.alarm.food;
 
 import android.content.Intent;
-import android.media.Image;
-import android.media.ImageWriter;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import com.example.jessl.alarm.R;
-import com.example.jessl.alarm.food.foodmenu;
-import java.lang.reflect.Array;
-import java.util.ArrayList;
+
 import java.util.Arrays;
 import java.util.Collections;
 
@@ -37,8 +33,7 @@ public class Food extends AppCompatActivity {
         ResName = (TextView) findViewById(R.id.ResName);
         menupic = (ImageView) findViewById(R.id.menu1);
 
-        showRandomFact();
-        showRandomFact2();
+
 
         Food1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -101,8 +96,8 @@ public class Food extends AppCompatActivity {
         Facts f03 = new Facts(R.drawable.wangji, "旺記", R.drawable.wangjimenu,"0910643658");
         Facts f04 = new Facts(R.drawable.lamian, "富成屋拉麵", R.drawable.lamianmenu,"0910643658");
         Facts f05 = new Facts(R.drawable.aka, "a咖平價鐵板", R.drawable.akamenu,"0910643658");
-        Facts f06 = new Facts(R.drawable.hong,"紅樓極麺",R.drawable.hongmenu,"0910643658");
-        Facts f07 = new Facts(R.drawable.dasixi,"紅樓極麺",R.drawable.dasiximenu,"0910643658");
+        Facts f06 = new Facts(R.drawable.hong,"紅樓極麺", R.drawable.hongmenu,"0910643658");
+        Facts f07 = new Facts(R.drawable.dasixi,"大四喜牛肉麵", R.drawable.dasiximenu,"0910643658");
 
         Facts[] factArray = new Facts[]{
                 f01, f02, f03, f04, f05,f06,f07
